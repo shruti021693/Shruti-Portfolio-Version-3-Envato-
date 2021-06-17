@@ -2061,7 +2061,14 @@ p.second-para {
     margin-top: 50px;
 }
 
+.icon-singles a {
+    color: rgb(0, 0, 0);
 
+}
+
+.zmdi.zmdi-instagram {
+    width: 40px;
+}
 
 /* 
 [ 5. Pages ]
