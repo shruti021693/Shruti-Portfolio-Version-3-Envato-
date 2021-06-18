@@ -116,6 +116,11 @@
   // isotope menu
   var ProjMli = $(".portfolio-menu li");
   var ProjGrid = $(".portfolio-grid");
+
+  ProjGrid.isotope({
+    filter: ".web, .design",
+  });
+
   ProjMli.on("click", function () {
     ProjMli.removeClass("active");
     $(this).addClass("active");
