@@ -2062,12 +2062,20 @@ p.second-para {
 }
 
 .icon-singles a {
-    color: rgb(0, 0, 0);
+    color: rgb(17, 17, 17);
 
 }
 
-.zmdi.zmdi-instagram {
-    width: 40px;
+.icon-singles i {
+    font-size: 30px;
+}
+
+.contact-text.clearfix {
+    margin-bottom: 150px;
+}
+
+.slider-button.resume {
+    margin-bottom: 10px;
 }
 
 /* 
