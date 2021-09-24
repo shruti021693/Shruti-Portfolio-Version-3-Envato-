@@ -172,8 +172,8 @@ a,
 ==========================*/
 p {
     font-family: 'Poppins', sans-serif;
-    color: #767676;
-    font-size: 14px;
+    color: #575757;
+    font-size: 12px;
     line-height: 24px;
     font-weight: 400;
     margin: 0;
@@ -2080,7 +2080,18 @@ p.second-para {
 
 /* 
 [ 5. Pages ]
-==============================Portfolio-page=========================================== */
+===========================================Portfolio-page=========================================== */
+/* ===========================================Portfolio-page===========================================  */
+
+.portfolio-description h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.portfolio-sidebar {
+    margin-top: 130px;
+}
+
 .portfolio-details .header-top,
 .blog-details .header-top {
     box-shadow: 5px 0 10px rgba(5, 5, 6, 0.08);
@@ -2124,6 +2135,32 @@ p.second-para {
     font-size: 15px;
     line-height: 28px;
 }
+
+
+
+.header_bgcolor h3 {
+    margin-top: 80px;
+    margin-bottom: -20px;
+}
+
+/* AR Glass deatail page start
+================================== */
+
+.project-gallery.ar_persona img {
+    max-width: 80%;
+    height: auto;
+
+}
+
+a.fancybox {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* AR Glass deatail page end
+================================== */
+
 
 /* 5A Linda deatail page start
 ================================== */
