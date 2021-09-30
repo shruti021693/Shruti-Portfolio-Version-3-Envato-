@@ -993,6 +993,10 @@ select {
 /* horizontal line 
 -------------------*/
 
+.horizontal-line.left .top, .horizontal-line.left .bottom {
+    margin-left: 0;
+}
+
 .horizontal-line div {
     background: #bcbcbc none repeat scroll 0 0;
     height: 2px;
@@ -2249,6 +2253,11 @@ p.second-para {
 .header_bgcolor h3 {
     margin-top: 80px;
     margin-bottom: -20px;
+}
+
+.video.project-gallery {
+    display: flex;
+    justify-content: center;
 }
 
 .project-gallery.reduced-size img {
