@@ -923,12 +923,12 @@ nav ul a {
     margin-bottom: 0;
 }
 
-.terra.container-fluid {
+.portfolio.container-fluid {
     padding-left: 0;
     padding-right: 0;
 }
 
-.terra.container-fluid>* {
+.portfolio.container-fluid>* {
     padding-left: 200px;
     padding-right: 200px;
     /* max-width: 1140px; */
