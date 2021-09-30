@@ -2138,14 +2138,150 @@ p.second-para {
 
 
 
+.slider-img img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+/* horizontal line start
+-------------------*/
+
+.horizontal-line div {
+    background: #bcbcbc none repeat scroll 0 0;
+    height: 2px;
+    margin: 0 auto;
+    width: 77px;
+}
+
+.horizontal-line div.top {
+    margin-bottom: 3px;
+    width: 44px;
+}
+
+
+/* horizontal line ends
+-------------------*/
+
+
+
+/* service section starts
+---------------------*/
+
+.single-service {
+    box-shadow: 0 1px 5px rgba(5, 5, 6, 0.007);
+    -webkit-box-shadow: 0 1px 5px rgba(5, 5, 6, 0.041);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 50%;
+    margin: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+.single-service:hover {
+    box-shadow: 0 4px 15px rgba(5, 5, 6, 0.055);
+    -webkit-box-shadow: 0 3px 20px rgba(5, 5, 6, 0.068);
+}
+
+.service-area.bg-color-1 {
+    background-color: rgb(252, 247, 238);
+}
+
+.section-title h4 {
+    margin-top: -40px;
+    margin-bottom: -20px;
+}
+
+.service-area {
+    margin-top: 40px;
+}
+
+/* .single-service i {
+    border: 1px solid #8a8a8a;
+    border-radius: 50%;
+    color: #8a8a8a;
+    font-size: 19px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    width: 36px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+} */
+
+.single-service:hover i {
+    background: #393939 none repeat scroll 0 0;
+    border-color: #393939;
+    box-shadow: 0 4px 15px rgba(5, 5, 6, 0.3);
+    color: #ffffff;
+}
+
+.single-service>p {
+    color: #3b3b3b;
+}
+
+.single-service hr {
+    border-color: #8a5a02;
+    border-width: 2px;
+    width: 50px;
+}
+
+.single-service>h5 {
+    color: #3b3b3b;
+    font-size: 14px;
+}
+
+/* service section ends
+---------------------*/
+
+
 .header_bgcolor h3 {
     margin-top: 80px;
     margin-bottom: -20px;
 }
 
-.bgcolor {}
+.project-gallery.reduced-size img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Terra seltzer deatail page start
+================================== */
+
+.single-post.user-info {
+    margin-bottom: 20px;
+}
+
+.single-post.info.connected p {
+    margin-bottom: -80px;
+}
+
+.single-post.terra-users p {
+    margin-bottom: 20px;
+}
+
+.single-post.terra-users {
+    margin-top: 80px;
+
+}
 
 
+.single-post.user-quotes p {
+    color: #131313;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.project-gallery.closer img {
+    margin-top: -100px;
+    margin-bottom: -20px;
+}
+
+
+
+/* Terra seltzer deatail page ends
+================================== */
 
 /* AR Glass deatail page start
 ================================== */
