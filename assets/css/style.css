@@ -993,7 +993,8 @@ select {
 /* horizontal line 
 -------------------*/
 
-.horizontal-line.left .top, .horizontal-line.left .bottom {
+.horizontal-line.left .top,
+.horizontal-line.left .bottom {
     margin-left: 0;
 }
 
@@ -2263,6 +2264,10 @@ p.second-para {
 .project-gallery.reduced-size img {
     max-width: 80%;
     height: auto;
+}
+
+.section-title.method-name {
+    margin-top: 100px;
 }
 
 /* Terra seltzer deatail page start
