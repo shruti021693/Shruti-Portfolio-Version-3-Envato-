@@ -900,23 +900,7 @@ nav ul a {
 }
 
 
-@media only screen and (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
 
-@media only screen and (max-width: 749px) {
-    .container {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 601px) {
-    .container {
-        width: 90%;
-    }
-}
 
 .container .row,
 .container-fluid .row {
@@ -928,11 +912,7 @@ nav ul a {
     padding-right: 0;
 }
 
-.portfolio.container-fluid>* {
-    padding-left: 200px;
-    padding-right: 200px;
-    /* max-width: 1140px; */
-}
+
 
 .container .row {
     margin-right: -15px;
@@ -2472,6 +2452,39 @@ ul.linda-list li{
 
 #scrollUp:hover {
     background: #000000 none repeat scroll 0 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+    .portfolio.container-fluid>* {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .container {
+        width: 100%;
+    }
+
+    .portfolio.container-fluid>* {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .container {
+        width: 90%;
+    }
+
+    .portfolio.container-fluid>* {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 /*====================================================================
