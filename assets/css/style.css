@@ -2348,6 +2348,17 @@ a.fancybox {
     margin-top: 100px;
 }
 
+.single-post.user-quotes.graph img {
+    max-width: 80%;
+    height: auto;
+}
+
+ul.linda-list li{
+    color:#000000;
+    font-size: smaller;
+}
+
+
 /* 5A Linda deatail page end
 ================================== */
 
