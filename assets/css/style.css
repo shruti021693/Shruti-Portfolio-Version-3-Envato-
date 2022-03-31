@@ -2251,7 +2251,7 @@ p.second-para {
 }
 
 /* Terra seltzer deatail page start
-================================== */
+============================================================================================================== */
 
 .single-post.user-info {
     margin-bottom: 20px;
@@ -2299,7 +2299,7 @@ p.second-para {
 ================================== */
 
 /* AR Glass deatail page start
-================================== */
+======================================================================================================= */
 
 .project-gallery.ar_persona img {
     max-width: 80%;
@@ -2318,7 +2318,7 @@ a.fancybox {
 
 
 /* 5A Linda deatail page start
-================================== */
+======================================================================================================= */
 
 .single-post.problem-solution {
     margin-top: 100px;
@@ -2345,6 +2345,35 @@ ul.linda-list li{
 
 
 /* 5A Linda deatail page end
+================================== */
+
+/* 5A Bethany church deatail page start
+=========================================================================================================== */
+
+.webpage-links {
+    color: #818181;;
+}
+
+.problem-solution.research-list ul li {
+    color:#000000;
+    font-size: small;
+    
+}
+
+.research-list p.bcc-res {
+font-weight: bold;
+font-size: medium;
+}
+
+.single-post.row-heading{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+/* 5A Bethany church deatail page end
 ================================== */
 
 
@@ -2520,6 +2549,11 @@ ul.linda-list li{
         width: 280px; 
         height: 180px;}
 
+
+
+      .img{
+          max-height: 50px;
+      }  
 
 
 }
