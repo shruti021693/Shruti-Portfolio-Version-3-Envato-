@@ -2377,6 +2377,25 @@ font-size: medium;
 ================================== */
 
 
+/* 5A GTZP deatail page start
+=========================================================================================================== */
+
+.figma-frame {
+display: flex;
+justify-content: center;
+}
+
+/* 5A Bethany church deatail page end
+================================== */
+
+
+
+
+
+
+
+
+
 /* dark blog details
 ---------------------*/
 .dark-version .single-related-post .light-color:hover {
